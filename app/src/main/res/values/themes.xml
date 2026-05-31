@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.MapTracker" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/map_primary</item>
+        <item name="colorPrimaryVariant">@color/map_accent</item>
+        <item name="colorOnPrimary">@color/map_white</item>
+        <item name="android:windowBackground">@color/map_background</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/map_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MapTracker"
+        android:textColor="@color/map_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@color/map_white" />
+
+    <TextView
+        android:id="@+id/tv_coordinates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En attente de position..."
+        android:textColor="@color/map_dark"
+        android:textSize="13sp"
+        android:padding="12dp"
+        android:background="@color/map_background" />
+
+    <fragment
+        android:id="@+id/map_fragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MapTracker</string>
+    <string name="map_ready">Carte prête</string>
+    <string name="permission_granted">Permission accordée</string>
+    <string name="permission_denied">Permission refusée</string>
+    <string name="gps_disabled">Votre GPS semble désactivé, voulez-vous l\'activer ?</string>
+    <string name="gps_yes">Oui</string>
+    <string name="gps_no">Non</string>
+    <string name="marker_title">Position actuelle</string>
+    <string name="location_update">Latitude : %1$s — Longitude : %2$s</string>
+</resources>

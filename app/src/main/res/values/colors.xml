@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="map_primary">#1A237E</color>
+    <color name="map_accent">#FF6F00</color>
+    <color name="map_white">#FFFFFF</color>
+    <color name="map_background">#E8EAF6</color>
+    <color name="map_dark">#1B1B1B</color>
+    <color name="map_grey">#757575</color>
+</resources>
